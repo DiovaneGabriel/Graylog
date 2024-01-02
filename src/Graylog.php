@@ -7,6 +7,13 @@ use Exception;
 class Graylog
 {
 
+    const LEVEL_FATAL = "Fatal";
+    const LEVEL_ERROR = "Error";
+    const LEVEL_WARNING = "Warn";
+    const LEVEL_INFO = "Info";
+    const LEVEL_DEBUG = "Debug";
+    const LEVEL_TRACE = "Trace";
+
     private string $host = "";
     private int $port = 80;
     private array $content = [];
