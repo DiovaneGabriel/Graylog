@@ -1,0 +1,21 @@
+{
+    "name": "diovanegabriel/graylog",
+    "description": "Integração com o Graylog",
+    "type": "library",
+    "keywords": [
+        "Log",
+        "Graylog"
+    ],
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Diovane Barbieri Gabriel"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Graylog\\": "src/"
+        }
+    }
+}
