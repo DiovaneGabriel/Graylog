@@ -1,6 +1,6 @@
 <?php
 
-namespace Graylog;
+namespace DBarbieri\Graylog;
 
 use Exception;
 

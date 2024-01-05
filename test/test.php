@@ -1,6 +1,6 @@
 <?php
 
-use Graylog\Graylog;
+use DBarbieri\Graylog\Graylog;
 
 require __DIR__ . '/../vendor/autoload.php';
 
